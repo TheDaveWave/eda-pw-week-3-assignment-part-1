@@ -85,6 +85,10 @@ console.log('The foods are now', favoriteFoods);
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
+favoriteFoods[favoriteFoods.length - favoriteFoods.length + 1] = 'chicken tortilla soup';
+//seems redundant but does the job. I know I couldve left out the favoriteFoods.length and kept kept the 1
+// but it seemed kinda fun to do it this way.^^
+console.log('My new list of foods include:', favoriteFoods);
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
