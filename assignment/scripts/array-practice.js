@@ -12,8 +12,8 @@ let favoriteFoods = ['tacos, burritos, steak'];
 
 // 1.b. TODO: Log your array of foods to the console with a message, similar 
 //      to the example above
-
-
+console.log(`My favorite foods include: ${favoriteFoods}`);
+console.log('My favorite foods include: ', favoriteFoods);
 
 // 2. Array.length - tells you how many items are in the array
 console.log('--- 2. Length of an array ---');
