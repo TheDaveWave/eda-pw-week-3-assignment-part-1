@@ -28,10 +28,10 @@ console.log('Number of foods: ', favoriteFoods.length);
 console.log('--- 3. Accessing items in an array ---');
 
 // Example: Log the first animal from the array using it's array index
-console.log('First animal is', animalArray[0])
+console.log('First animal is', animalArray[0]);
 
 // 3.a. TODO: Log the second animal in the array 
-
+console.log('Second animal is', animalArray[1]);
 
 // 3.b. TODO: Log the last animal in the array using it's array index 
 
